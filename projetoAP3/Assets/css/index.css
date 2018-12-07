@@ -1,0 +1,103 @@
+.indexBackground{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #7db9e8;
+    background: -moz-linear-gradient(45deg, #7db9e8 0%, #207cca 48%, #1e5799 86%, #1e5799 100%);
+    background: -webkit-linear-gradient(45deg, #7db9e8 0%,#207cca 48%,#1e5799 86%,#1e5799 100%);
+    background: linear-gradient(45deg, #7db9e8 0%,#207cca 48%,#1e5799 86%,#1e5799 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 );
+}
+
+.titleIndex{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.containerMenu,
+.containerMenuClasses{
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    min-width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1.5rem;
+}
+
+.col-md-6{
+    padding: 0px !important;
+}
+
+.row{
+    margin: 0px !important; 
+}
+
+.menuLogado i,
+.menuDeslogado i{
+    font-size: 2.2rem;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 2rem .5rem 2rem;
+    color: white;
+}
+
+.iconFont{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.col-md-10{
+    background-color: #7db9e8;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5px !important;
+}
+
+.classes{
+    background-color: #7db9e8;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+.col-md-10:hover{
+    background-color: #207cca;
+    transition: 1s;
+    top: -5px;
+}
+
+.registrar{
+    color: #207cca;
+    text-decoration: underline;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.titleFazerLogin{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+/* #botaoHome{
+    
+} */
